@@ -1,6 +1,6 @@
 //
 // This file defines the branch_metadata struct.
-//
+
 
 #ifndef BRANCH_METADATA_H
 #define BRANCH_METADATA_H
