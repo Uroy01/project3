@@ -1,11 +1,14 @@
-#include "util.h"
+#ifndef UTIL_H
+#define UTIL_H
 
-void print_n_lsb_as_binary(int number, int n_bits)
-{
-    for (int i = 0; i < n_bits; i++) {
-        if ((1 << (n_bits - i - 1)) & number)
-            printf("1");
-        else
-            printf("0");
-    }
-}
+#include <stdio.h>
+
+//
+// Print the N least-significant bits of the provided number.
+//
+// Arguments
+//  * number: the number that we want to print bits of.
+//  * n_bits: the number of bits to print.
+void print_n_lsb_as_binary(int number, int n_bits);
+
+#endif
