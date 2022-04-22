@@ -5,7 +5,7 @@
 // output printing. It initializes the branch predictor with the list of
 // branches from the trace and then calls the active branch predictor for each
 // of the branch instructions.
-//
+
 
 #include <stdbool.h>
 #include <stdint.h>
